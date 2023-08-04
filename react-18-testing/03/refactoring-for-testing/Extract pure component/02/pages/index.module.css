@@ -1,0 +1,15 @@
+.paragraph_counter {
+  background-color: #02E088;
+}
+
+.container {
+  counter-reset: paragraphs;
+  margin: auto;
+  width: 600px;
+}
+
+.container p::before {
+  counter-increment: paragraphs;
+  content: counter(paragraphs) ": ";
+}
+

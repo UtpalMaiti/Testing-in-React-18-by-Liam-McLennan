@@ -1,0 +1,27 @@
+.selected {
+    background-color: antiquewhite;
+}
+
+.filterlist {
+    border: 2px solid #eee;
+}
+
+.filterlist > p, .filterlist li {
+    padding: 0.5em;
+}
+
+.filterlist li {
+    cursor: pointer;
+}
+
+.filterlist ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filterlist input[type=text] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
